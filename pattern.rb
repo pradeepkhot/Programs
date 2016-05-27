@@ -1,15 +1,21 @@
+### To print the following pattern
+# 1
+# 23
+# 456
+# 78910
+########
 class p
 
 i=1
-for line in 1..4 do
-for count in 1..line do
+	for line in 1..4 do
+		for count in 1..line do
 
-puts i
-i=i+1
+		print i
+		i=i+1
 
-end
+		end
 
-print "\n"
+		puts "\n"
 
-end
+	end
 end
